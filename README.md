@@ -1,5 +1,6 @@
 # charts
 用法：
+
     new Chart{
        isinit:boolean,//非必需默认为true
        id:html_id,
@@ -18,17 +19,17 @@
           titleStyle:"#ff0033"
          }
         }
-  //not important 默认为form形式 bgc：白色 坐标轴：黑色
-  form:{
-      formStyle:"form"
-  },
-  //important
-  chart:{
-      lineCap:"round",
-      chartStyle:'line',
-      lineWidth:2,
-      lineColor:'#ff0033',
+        //not important 默认为form形式 bgc：白色 坐标轴：黑色
+      form:{
+          formStyle:"form"
+      },
+      //important
+      chart:{
+          lineCap:"round",
+          chartStyle:'line',
+          lineWidth:2,
+          lineColor:'#ff0033',
       isAvg:true,
       data:arr
-  }
-}
+      }
+    }
